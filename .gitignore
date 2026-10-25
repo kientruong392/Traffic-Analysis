@@ -46,6 +46,8 @@ next-env.d.ts
 ai-service/venv/
 venv/
 ENV/
+.ultralytics/
+vision-engine/temp_uploads/
 
 # Python cache
 __pycache__/

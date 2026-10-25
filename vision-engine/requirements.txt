@@ -3,3 +3,4 @@ uvicorn
 ultralytics
 opencv-python
 python-multipart
+lap>=0.5.12
