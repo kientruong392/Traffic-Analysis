@@ -9,9 +9,7 @@ import {
 } from "@/lib/traffic";
 
 // Chỉ server đọc biến này. Không dùng NEXT_PUBLIC_ vì client không gọi Python.
-const AI_SERVICE_URL = (
-  process.env.AI_SERVICE_URL || "http://127.0.0.1:8000"
-).replace(/\/$/, "");
+const AI_SERVICE_URL = process.env.AI_SERVICE_URL;
 
 function checkOptions(options: AnalysisOptions) {
   if (!options || typeof options.tracking !== "boolean")

@@ -32,6 +32,7 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!/traffic-analysis-app/.env.example
 
 # vercel
 .vercel
@@ -61,3 +62,7 @@ ai-service/weights/
 
 # Temporary directory for video/image storage
 ai-service/temp_uploads/
+
+# Documentation
+*.pdf
+*.docx
